@@ -1,0 +1,128 @@
+body {
+    background: #eee;
+    margin: 0;
+    font-family: arial;
+    }
+    .wrapper {
+    background: #fff;
+    width: 700px;
+    padding: 1px 15px 15px;
+    margin: 0 auto;
+    }
+    .slider {
+    z-index: 9;
+    width: 550px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 0 7px;
+    position: relative;
+    }
+    .slider ul,
+    .slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+    .slider ul {
+    width: 9999px;
+    }
+    .slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 550px;
+    height: 290px;
+    }
+    .slider .nav {
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+    }
+    .slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+    }
+    .slider .nav span.on {
+    background: #2e9419;
+    }
+
+
+    a {
+      text-decoration: none;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #2e9419;
+      color: #fff;
+      padding: 12px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: Tahoma;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 100;
+    }
+
+
+
+    #accordeon {
+      width: 550px;
+      border: 10px solid #fff;
+      box-shadow: 0 0 10px #2e9419;
+      margin: 10px;
+    }
+
+    .acc-head {
+      padding: 5px 10px;
+      background: #fff;
+      cursor: pointer;
+      outline: 1px solid #2e9419;
+      border: 1px solid #2e9419;
+      background-color: #fff;
+    }
+
+    .acc-body {
+      padding: 10px;
+      border-bottom: 1px solid #c0c0c0;
+      margin-bottom: 5px;
+      display: none;
+    }
+
+
+    .menu-2 {
+         margin: 0;
+         padding: 0;
+         height: auto;
+         list-style-type: none;
+         background-color: #ссс;
+         text-align: center;
+         }
+      .menu-2 li {
+         margin: 8px 10px 8px 0;
+         padding: 2px 14px 4px;
+         background-color: #2e9419;
+         border: 2px solid #2e9419;
+         border-radius: 1px 20px;
+         display: inline-block;
+         transition: all 0.7s ease 0s;
+         }
+      .menu-2 a {
+        color: #f2f2f2;
+        text-decoration: none;
+        }
+      .menu-2 li:hover {
+        background-color: #2e9411;
+        border-radius: 20px 1px;
+        }
+      .menu-2 li:hover a {
+        color: #fff;
+        }
